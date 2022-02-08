@@ -25,10 +25,10 @@ emit_event_on_error = []
 [dependencies]
 actix-web = {version = "=4.0.0-rc.2", default-features = false}
 pin-project = "1.0.0"
-tracing = {git = "https://github.com/msdrigg/tracing", branch = "EnvFilterFilter"}
-tracing-futures = {git = "https://github.com/msdrigg/tracing", branch = "EnvFilterFilter"}
+tracing = "*"
+tracing-futures = "*"
 uuid = {version = "0.8.1", features = ["v4"]}
 
 [dev-dependencies]
-tracing-log = {git = "https://github.com/msdrigg/tracing", branch = "EnvFilterFilter"}
-tracing-subscriber = {git = "https://github.com/msdrigg/tracing", branch = "EnvFilterFilter", features = ["registry", "env-filter"]}
+tracing-log = "*"
+tracing-subscriber = {version = "*", features = ["registry", "env-filter"]}
