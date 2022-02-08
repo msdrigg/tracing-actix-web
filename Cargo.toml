@@ -23,7 +23,7 @@ default = ["emit_event_on_error"]
 emit_event_on_error = []
 
 [dependencies]
-actix-web = {version = "=4.0.0-beta.21", default-features = false}
+actix-web = {version = "=4.0.0-rc.2", default-features = false}
 pin-project = "1.0.0"
 tracing = {git = "https://github.com/msdrigg/tracing", branch = "EnvFilterFilter"}
 tracing-futures = {git = "https://github.com/msdrigg/tracing", branch = "EnvFilterFilter"}
