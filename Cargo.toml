@@ -23,7 +23,7 @@ default = ["emit_event_on_error"]
 emit_event_on_error = []
 
 [dependencies]
-actix-web = {version = "=4.0.0-rc.2", default-features = false}
+actix-web = {version = "=4", default-features = false}
 pin-project = "1.0.0"
 tracing = "*"
 tracing-futures = "*"
